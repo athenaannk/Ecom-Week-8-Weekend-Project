@@ -1,38 +1,32 @@
-.App {
-  text-align: center;
+/* NAv BAr */
+.navbar-nav a{
+  font-size: 18px;
+}
+.carsousel-item img{
+  height: 550px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.cartProductContainer{
+  border: 1px solid #000;
+  margin: 5px;
+}
+.cartProductContainer img{
+  height: 200px;
+  width: 200px;
+  object-fit: contain;
+  background-size: contain;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.total{
+  font-size: 3rem;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.statusContainer{
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  /* align-items: center; */
+  text-align: center;
+  position: sticky;
+  top: 0;
+  height: 300px;
 }
